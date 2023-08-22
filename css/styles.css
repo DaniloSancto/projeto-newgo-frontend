@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap");
 
 @import url("./social-media-images.css");
-@import url("./sticker-button.css");
+@import url("./sticker-note.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
@@ -9,6 +9,7 @@
 
   --mwp-color-font-primary: #ffffff;
   --mwp-color-font-secondary: #7B4AE2;
+  --mwp-color-font-tertiary: rgba(255, 255, 255, 0.5);
 }
 
 * {
@@ -18,14 +19,20 @@
 body {
   background-color: var(--mwp-color-bg-primary);
   margin: 0;
+  font-size: 52px;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--mwp-color-font-primary);
+  margin: 0;
 }
 
 p {
-    margin: 0;
+  margin: 0;
 }
 
 main {
@@ -39,4 +46,19 @@ main {
   max-height: 300px;
   size: 100%;
   margin-top: 40px;
+}
+
+.top-home-texts {
+  width: 300px;
+}
+
+.top-home-texts h1 {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.top-home-texts p {
+  color: var(--mwp-color-font-tertiary);
+  font-size: 0.34em;
+  margin-top: 10px;
 }
