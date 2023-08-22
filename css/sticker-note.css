@@ -1,0 +1,7 @@
+.sticker-note {
+    font-weight: 700;
+    padding: 10px 14px;
+    border-radius: 8px;
+    background-color: var(--mwp-color-bg-secondary);
+    color: var(--mwp-color-font-secondary);
+}
