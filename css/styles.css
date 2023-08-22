@@ -5,10 +5,10 @@
 
 :root {
   --mwp-color-bg-primary: #090e16;
-  --mwp-color-bg-secondary: rgba(123, 74, 226, 0.10);
+  --mwp-color-bg-secondary: rgba(123, 74, 226, 0.1);
 
   --mwp-color-font-primary: #ffffff;
-  --mwp-color-font-secondary: #7B4AE2;
+  --mwp-color-font-secondary: #7b4ae2;
   --mwp-color-font-tertiary: rgba(255, 255, 255, 0.5);
 }
 
@@ -42,10 +42,7 @@ main {
 }
 
 .avatar-image {
-  max-width: 285px;
-  max-height: 300px;
-  size: 100%;
-  margin-top: 40px;
+  width: 430px;
 }
 
 .top-home-texts {
