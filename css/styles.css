@@ -50,6 +50,10 @@ a {
   align-items: center;
 }
 
+.top-section__social {
+  display: none;
+}
+
 .top-section__avatar {
   width: 430px;
 }
@@ -72,5 +76,9 @@ a {
 @media (min-width: 600px) {
   .header-mobile {
     display: none;
+  }
+
+  .top-section__social {
+    display: block;
   }
 }

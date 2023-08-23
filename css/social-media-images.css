@@ -1,7 +1,6 @@
-.top-section__social {
+.social-base {
     width: 130px;
     height: 35px;
-    margin-top: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
