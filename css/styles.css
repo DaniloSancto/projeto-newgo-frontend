@@ -13,7 +13,6 @@
   --mwp-color-font-tertiary: rgba(255, 255, 255, 0.5);
   --mwp-color-font-quaternary: rgba(123, 74, 226, 0.5);
 
-  
   --mwp-border-color: rgba(123, 74, 226, 0.5);
 }
 
@@ -25,12 +24,6 @@ body {
   background-color: var(--mwp-color-bg-primary);
   margin: 0;
   font-size: 52px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 h1,
@@ -50,20 +43,26 @@ a {
   text-decoration: none;
 }
 
-.avatar-image {
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section__avatar {
   width: 430px;
 }
 
-.top-home-texts {
+.top-section__texts {
   width: 300px;
 }
 
-.top-home-texts h1 {
+.top-section__texts h1 {
   margin-top: 20px;
   font-size: 0.94em;
 }
 
-.top-home-texts p {
+.top-section__texts p {
   color: var(--mwp-color-font-tertiary);
   font-size: 0.35em;
   margin-top: 10px;
