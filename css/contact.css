@@ -14,30 +14,42 @@
   height: 20px;
 }
 
-.top-section__download-cv,
-.top-section__lets-talk {
+.top-section__contact--download-cv,
+.top-section__contact--lets-talk {
   height: 45px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.top-section__download-cv {
+.top-section__contact--download-cv {
   width: 104px;
   margin-right: 10px;
 }
 
-.top-section__download-cv p {
+.top-section__contact--download-cv p {
   margin-right: 6px;
 }
 
-.top-section__lets-talk {
+.top-section__contact--lets-talk {
   justify-content: center;
   width: 172px;
   border: 1px solid var(--mwp-border-color);
   border-radius: 8px;
 }
 
-.top-section__lets-talk p {
+.top-section__contact--lets-talk p {
   margin-left: 6px;
+}
+
+@media (min-width: 600px) {
+  .top-section__contact {
+    flex-direction: column;
+    align-items: flex-end;
+    width: 174px;
+  }
+  .top-section__contact--download-cv,
+  .top-section__contact--download-cv p {
+    margin: 0;
+  }
 }
