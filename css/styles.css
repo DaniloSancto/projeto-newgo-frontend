@@ -51,11 +51,11 @@ main {
 
 .top-home-texts h1 {
   margin-top: 20px;
-  font-size: 0.9em;
+  font-size: 0.94em;
 }
 
 .top-home-texts p {
   color: var(--mwp-color-font-tertiary);
-  font-size: 0.34em;
+  font-size: 0.35em;
   margin-top: 10px;
 }

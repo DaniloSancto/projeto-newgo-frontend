@@ -1,7 +1,6 @@
 .sticker-note {
   height: 32px;
-  max-width: 130px;
-  padding: 8px 12px;
+  max-width: 120px;
   border-radius: 8px;
   background-color: var(--mwp-color-bg-secondary);
 }
@@ -9,9 +8,10 @@
 .sticker-note h3 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   font-weight: 700;
   height: 100%;
-  font-size: 0.32em;
+  font-size: 14px;
   color: var(--mwp-color-font-secondary);
 }
