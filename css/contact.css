@@ -1,0 +1,42 @@
+.contact-container {
+  display: flex;
+  width: 300px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+.contact-container p {
+  color: var(--mwp-color-font-quaternary);
+  font-size: 0.3em;
+}
+
+.contact-container img {
+  width: 20px;
+  height: 20px;
+}
+
+.download-cv,
+.lets-talk {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.download-cv {
+  width: 104px;
+  margin-right: 10px;
+}
+.download-cv p {
+  margin-right: 6px;
+}
+
+.lets-talk {
+  justify-content: center;
+  width: 172px;
+  border: 1px solid var(--mwp-border-color);
+  border-radius: 8px;
+}
+
+.lets-talk p {
+  margin-left: 6px;
+}

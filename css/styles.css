@@ -2,6 +2,7 @@
 
 @import url("./social-media-images.css");
 @import url("./sticker-note.css");
+@import url("./contact.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
@@ -10,6 +11,10 @@
   --mwp-color-font-primary: #ffffff;
   --mwp-color-font-secondary: #7b4ae2;
   --mwp-color-font-tertiary: rgba(255, 255, 255, 0.5);
+  --mwp-color-font-quaternary: rgba(123, 74, 226, 0.5);
+
+  
+  --mwp-border-color: rgba(123, 74, 226, 0.5);
 }
 
 * {
@@ -20,6 +25,12 @@ body {
   background-color: var(--mwp-color-bg-primary);
   margin: 0;
   font-size: 52px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1,
@@ -35,10 +46,8 @@ p {
   margin: 0;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  text-decoration: none;
 }
 
 .avatar-image {
