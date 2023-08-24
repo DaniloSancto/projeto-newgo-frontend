@@ -111,9 +111,12 @@ header {
   .home-navbar__links {
     color: var(--mwp-color-font-tertiary);
     display: grid;
-    justify-items: center;
+    align-items: center;
+    justify-content: center;
     max-width: 700px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
+    column-gap: 1em;
     font-size: 0.32em;
     list-style-type: none;
   }
@@ -145,6 +148,16 @@ header {
     margin: 0;
     grid-row: 1;
     grid-column: 3;
+  }
+}
+
+@media (min-width: 850px) {
+  body {
+    font-size: 45px;
+  }
+
+  .home-navbar__links {
+    column-gap: 1.5em;
   }
 }
 
