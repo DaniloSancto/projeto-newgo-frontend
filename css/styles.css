@@ -149,6 +149,21 @@ header {
   margin: 40px 0;
 }
 
+.footer-section {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 90px;
+  background-color: var(--mwp-color-bg-secondary);
+}
+
+.footer-section p {
+  font-size: 0.3em;
+  color: var(--mwp-color-font-tertiary);
+}
+
 @media (min-width: 600px) {
   body {
     font-size: 40px;
@@ -276,6 +291,13 @@ header {
   .about-section__description--first-name {
     width: auto;
     line-height: 0.3em;
+  }
+
+  .footer-section {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 20px;
   }
 }
 
