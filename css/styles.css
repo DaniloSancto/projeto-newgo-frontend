@@ -43,6 +43,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0;
+}
+
 .home-navbar {
   display: none;
 }
@@ -112,11 +116,11 @@ header {
     color: var(--mwp-color-font-tertiary);
     display: grid;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     max-width: 700px;
+    padding-left: 50px;
     width: 100%;
     grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
-    column-gap: 1em;
     font-size: 0.32em;
     list-style-type: none;
   }
@@ -154,10 +158,6 @@ header {
 @media (min-width: 850px) {
   body {
     font-size: 45px;
-  }
-
-  .home-navbar__links {
-    column-gap: 1.5em;
   }
 }
 
