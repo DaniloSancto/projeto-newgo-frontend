@@ -94,7 +94,8 @@ header {
 
 .top-section__texts p {
   color: var(--mwp-color-font-tertiary);
-  font-size: 0.35em;
+  font-size: 0.34em;
+  min-width: 215px;
   margin-top: 10px;
 }
 
@@ -269,7 +270,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 40px;
+    padding: 0 35px;
   }
 
   .experience-section__description p {
