@@ -73,6 +73,10 @@ header {
   align-items: center;
 }
 
+.header-mobile {
+  margin-top: 20px;
+}
+
 .top-section__avatar {
   width: 100%;
   max-width: 600px;
