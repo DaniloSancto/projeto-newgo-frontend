@@ -49,18 +49,9 @@ ul {
   padding: 0;
 }
 
-.home-navbar {
-  display: none;
-}
-
-.top-section__texts--social {
-  display: none;
-}
-
-.experience-section__description {
-  display: none;
-}
-
+.home-navbar,
+.top-section__texts--social,
+.experience-section__description,
 .presentation-emote,
 .about-section__description--last-name {
   display: none;
@@ -97,13 +88,6 @@ header {
   font-size: 0.34em;
   min-width: 215px;
   margin-top: 10px;
-}
-
-.teste {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .experience-section {
