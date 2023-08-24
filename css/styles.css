@@ -24,7 +24,6 @@
 body {
   background-color: var(--mwp-color-bg-primary);
   margin: 0;
-  font-size: 52px;
 }
 
 h1,
@@ -52,15 +51,19 @@ ul {
   display: none;
 }
 
+.top-section__texts--social {
+  display: none;
+}
+
+.experience-section__description {
+  display: none;
+}
+
 .top-section,
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.top-section__texts--social {
-  display: none;
 }
 
 .top-section__avatar {
@@ -107,10 +110,6 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-.experience-section__description {
-  display: none;
 }
 
 @media (min-width: 600px) {
