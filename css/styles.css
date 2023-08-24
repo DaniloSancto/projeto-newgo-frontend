@@ -24,6 +24,7 @@
 body {
   background-color: var(--mwp-color-bg-primary);
   margin: 0;
+  font-size: 52px;
 }
 
 h1,
