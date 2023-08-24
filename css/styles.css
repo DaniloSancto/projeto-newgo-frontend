@@ -269,6 +269,10 @@ header {
     padding: 140px 15px;
   }
 
+  .about-section__picture {
+    width: 30%;
+  }
+
   .about-section__description--first-name {
     width: auto;
     line-height: 0.3em;
