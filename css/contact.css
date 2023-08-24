@@ -34,7 +34,7 @@
 .top-section__contact--lets-talk {
   justify-content: center;
   width: 172px;
-  border: 1px solid var(--mwp-border-color);
+  border: 1px solid var(--mwp-border-color-primary);
   border-radius: 8px;
 }
 
