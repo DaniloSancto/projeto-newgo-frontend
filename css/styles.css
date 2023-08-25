@@ -182,7 +182,6 @@ header {
   }
 
   .home-navbar__links {
-    color: var(--mwp-color-font-tertiary);
     display: grid;
     align-items: center;
     justify-content: space-between;
@@ -192,6 +191,19 @@ header {
     grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
     font-size: 0.32em;
     list-style-type: none;
+  }
+
+  .home-navbar__links a {
+    color: var(--mwp-color-font-tertiary);
+  }
+
+  .home-navbar__links a:hover {
+    color: var(--mwp-color-font-quaternary);
+  }
+
+  .home-navbar__links a:active {
+    font-weight: 700;
+    color: var(--mwp-color-font-quaternary);
   }
 
   .top-section {
