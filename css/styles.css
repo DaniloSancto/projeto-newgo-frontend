@@ -57,6 +57,7 @@ ul {
   display: none;
 }
 
+#home,
 .top-section,
 header {
   display: flex;
@@ -66,6 +67,11 @@ header {
 
 .header-mobile {
   margin-top: 20px;
+}
+
+.top-section {
+  width: 100%;
+  max-width: 1600px;
 }
 
 .top-section__avatar {
@@ -208,7 +214,6 @@ header {
 
   .top-section {
     padding: 0 20px;
-    justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: calc(100% - 40px);
@@ -222,16 +227,19 @@ header {
   }
 
   .top-section__avatar {
+    justify-self: center;
     grid-row: 1;
     grid-column: 2;
   }
 
   .top-section__texts {
+    justify-self: start;
     grid-row: 1;
     grid-column: 1;
   }
 
   .top-section__contact {
+    justify-self: end;
     margin: 0;
     grid-row: 1;
     grid-column: 3;
