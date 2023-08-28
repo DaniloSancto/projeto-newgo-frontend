@@ -257,6 +257,7 @@ header {
   }
 
   .top-section__contact {
+    padding: 0;
     justify-self: end;
     margin: 0;
     grid-row: 1;
