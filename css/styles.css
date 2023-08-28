@@ -114,12 +114,19 @@ header {
   align-items: center;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .about-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 80px 15px;
+  width: 100%;
 }
 
 .about-section__description p {
@@ -322,31 +329,33 @@ header {
   }
 }
 
-@media (min-width: 850px) {
-  body {
-    font-size: 45px;
+@media (min-width: 992px) {
+  .home-navbar__links {
+    font-size: 1.1em;
   }
 
-  .experience-section__description--content {
+  .top-section__texts h1 {
+    font-size: 3.3em;
+  }
+
+  .top-section__texts p {
+    font-size: 1.1em;
+  }
+
+  .experience-section__description h2 {
+    font-size: 2em;
+  }
+
+  .about-section__description--first-name,
+  .about-section__description--last-name {
+    font-size: 3em;
+  }
+
+  .about-section__description p {
+    font-size: 1.1em;
+  }
+
+  .footer-section p {
     font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 40px;
-  }
-}
-
-@media (min-width: 1000px) {
-  body {
-    font-size: 52px;
-  }
-
-  .top-section {
-    padding-bottom: 140px;
-  }
-
-  .about-section {
-    padding: 140px 15px;
   }
 }

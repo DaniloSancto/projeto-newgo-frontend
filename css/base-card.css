@@ -29,3 +29,9 @@
     margin: 0 5px;
   }
 }
+
+@media (min-width: 992px) {
+  .base-card h2 {
+    font-size: 2em;
+  }
+}
