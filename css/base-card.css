@@ -12,11 +12,11 @@
 
 .base-card p {
   color: var(--mwp-color-font-primary);
-  font-size: 0.4em;
+  font-size: 1em;
 }
 
 .base-card h2 {
-  font-size: 0.6em;
+  font-size: 1.5em;
 }
 
 .card-active {
