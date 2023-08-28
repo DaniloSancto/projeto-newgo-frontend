@@ -126,7 +126,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 80px 15px;
-  width: 100%;
+  width: calc(100% - 30px);;
 }
 
 .about-section__description p {
