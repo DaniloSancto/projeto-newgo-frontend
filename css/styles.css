@@ -191,7 +191,7 @@ header {
     padding-left: 50px;
     width: 100%;
     grid-template-columns: max-content max-content max-content max-content max-content max-content max-content;
-    font-size: 0.32em;
+    font-size: 0.8em;
     list-style-type: none;
   }
 
@@ -229,9 +229,18 @@ header {
   }
 
   .top-section__texts {
+    padding: 0;
     justify-self: start;
     grid-row: 1;
     grid-column: 1;
+  }
+
+  .top-section__texts h1 {
+    font-size: 2em;
+  }
+
+  .top-section__texts p {
+    font-size: 0.8em;
   }
 
   .top-section__contact {
@@ -275,12 +284,12 @@ header {
 
   .experience-section__description p {
     color: var(--mwp-color-font-secondary);
-    font-size: 0.35em;
+    font-size: 1em;
   }
 
   .experience-section__description h2 {
     color: var(--mwp-color-font-secondary);
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 
   .about-section {
@@ -293,15 +302,23 @@ header {
     width: 30%;
   }
 
+  .about-section__description {
+    margin-left: 10px;
+  }
+
   .about-section__description--first-name {
     width: auto;
-    line-height: 0.3em;
+    line-height: 1em;
   }
 
   .footer-section {
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-section p {
+    min-width: 206px;
   }
 }
 

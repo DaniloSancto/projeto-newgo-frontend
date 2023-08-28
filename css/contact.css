@@ -52,4 +52,8 @@
   .top-section__contact--download-cv p {
     margin: 0;
   }
+
+  .top-section__contact p {
+    font-size: 0.8em;
+  }
 }
