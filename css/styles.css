@@ -108,10 +108,14 @@ header {
   margin-top: 70px;
   width: calc(100% - 10px);
   height: 680px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
   align-items: center;
+  justify-items: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card-active {
+  grid-row: 3;
 }
 
 #about {
@@ -126,7 +130,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 80px 15px;
-  width: calc(100% - 30px);;
+  width: calc(100% - 30px);
 }
 
 .about-section__description p {
@@ -262,7 +266,8 @@ header {
   }
 
   .experience-section__cards {
-    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
     height: auto;
     max-width: 900px;
   }
