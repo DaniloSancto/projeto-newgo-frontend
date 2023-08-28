@@ -334,6 +334,10 @@ header {
     font-size: 1.1em;
   }
 
+  .top-section__avatar {
+    max-width: 700px;
+  }
+
   .top-section__texts h1 {
     font-size: 3.3em;
     max-width: 400px;
