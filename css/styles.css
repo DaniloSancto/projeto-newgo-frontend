@@ -35,7 +35,8 @@ body {
 ::-webkit-scrollbar {
   background-color: var(--mwp-scrollbar-primary);
   border-radius: 5px;
-  width: 15px;
+  width: 10px;
+  height: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
