@@ -230,6 +230,7 @@ header {
 .work-project__cards--card--notes--note {
   padding: 0 20px;
   margin-right: 10px;
+  height: 30px;
 }
 
 @media (min-width: 600px) {
