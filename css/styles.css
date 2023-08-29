@@ -17,6 +17,9 @@
 
   --mwp-border-color-primary: rgba(123, 74, 226, 0.5);
   --mwp-border-color-secondary: rgba(123, 74, 226, 0.1);
+
+  --mwp-scrollbar-primary: #0c002550;
+  --mwp-scrollbar-secondary: #7a4ae234;
 }
 
 * {
@@ -30,13 +33,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-  background-color: var(--mwp-color-bg-primary);
+  background-color: var(--mwp-scrollbar-primary);
   border-radius: 5px;
   width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--mwp-color-bg-secondary);
+  background-color: var(--mwp-scrollbar-secondary);
   border-radius: 5px;
 }
 
