@@ -4,6 +4,7 @@
 @import url("./sticker-note.css");
 @import url("./contact.css");
 @import url("./card-experience.css");
+@import url("./base-card.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
@@ -171,6 +172,44 @@ header {
 .footer-section p {
   font-size: 0.8em;
   color: var(--mwp-color-font-tertiary);
+}
+
+.work-project__cards--card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 300px;
+  height: 370px;
+}
+
+.work-project__cards--card img {
+  width: 100%;
+}
+
+.work-project__cards--card--texts {
+  width: 100%;
+}
+
+.work-project__cards--card--texts h2 {
+  margin-bottom: 15px;
+  font-size: 1.2em;
+}
+
+.work-project__cards--card--texts p {
+  color: var(--mwp-color-font-tertiary);
+  font-size: 0.9em;
+  max-width: 247px;
+}
+
+.work-project__cards--card--notes {
+  display: flex;
+  width: 100%;
+}
+
+.work-project__cards--card--notes--note {
+  padding: 0 20px;
+  margin-right: 10px;
 }
 
 @media (min-width: 600px) {
