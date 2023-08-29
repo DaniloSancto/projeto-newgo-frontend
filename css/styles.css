@@ -29,6 +29,17 @@ body {
   font-size: 16px;
 }
 
+::-webkit-scrollbar {
+  background-color: var(--mwp-color-bg-primary);
+  border-radius: 5px;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--mwp-color-bg-secondary);
+  border-radius: 5px;
+}
+
 h1,
 h2,
 h3,
