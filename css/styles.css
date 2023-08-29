@@ -189,7 +189,7 @@ header {
   color: var(--mwp-color-font-tertiary);
 }
 
-.work-project {
+#portifolio {
   padding-left: 20px;
 }
 
@@ -236,7 +236,7 @@ header {
   margin-right: 20px;
 }
 
-.teste {
+.cards {
   display: flex;
 }
 
