@@ -3,7 +3,7 @@
 @import url("./social-media-images.css");
 @import url("./sticker-note.css");
 @import url("./contact.css");
-@import url("./base-card.css");
+@import url("./card-experience.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
@@ -116,7 +116,7 @@ header {
   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.card-active {
+.card-experience-active {
   grid-row: 3;
 }
 

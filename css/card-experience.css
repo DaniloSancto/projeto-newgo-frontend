@@ -1,4 +1,4 @@
-.base-card {
+.card-experience {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,28 +10,28 @@
   border-radius: 16px;
 }
 
-.base-card p {
+.card-experience p {
   color: var(--mwp-color-font-primary);
   font-size: 1em;
 }
 
-.base-card h2 {
+.card-experience h2 {
   font-size: 1.5em;
 }
 
-.card-active {
+.card-experience-active {
   background-color: var(--mwp-color-bg-secondary);
   border: none;
 }
 
 @media (min-width: 600px) {
-  .base-card {
+  .card-experience {
     margin: 0 5px;
   }
 }
 
 @media (min-width: 992px) {
-  .base-card h2 {
+  .card-experience h2 {
     font-size: 2em;
   }
 }
