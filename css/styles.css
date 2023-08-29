@@ -189,6 +189,32 @@ header {
   color: var(--mwp-color-font-tertiary);
 }
 
+.work-project__category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 365px;
+}
+
+.work-project__category--item {
+  border-radius: 8px;
+  border: 1px solid var(--mwp-border-color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 40px;
+}
+
+.work-project__category--item img {
+  height: 24px;
+  margin-right: 5px;
+}
+
+.work-project__category--item p {
+  color: var(--mwp-color-font-quaternary);
+}
+
 .work-project__cards {
   display: flex;
   overflow: auto;
