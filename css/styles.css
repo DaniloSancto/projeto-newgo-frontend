@@ -189,7 +189,7 @@ header {
   color: var(--mwp-color-font-tertiary);
 }
 
-.work-project h1 {
+#portifolio h1 {
   margin: 15px 20px;
   font-size: 1.5em;
   width: 120px;
@@ -264,7 +264,7 @@ header {
 .horizontal-scroll__card--texts p {
   color: var(--mwp-color-font-tertiary);
   font-size: 0.9em;
-  max-width: 247px;
+  max-width: 250px;
 }
 
 .horizontal-scroll__card--notes {
@@ -293,6 +293,29 @@ header {
   color: var(--mwp-color-font-quaternary);
   margin-right: 5px;
   font-size: 0.9em;
+}
+
+.videos__texts p {
+ color: var(--mwp-color-font-tertiary);
+ font: 0.9em;
+ margin-bottom: 24px;
+ padding-left: 20px;
+}
+
+.horizontal-scroll__card--watch {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+}
+
+.horizontal-scroll__card--watch p {
+  color: var(--mwp-color-font-tertiary);
+  margin-right: 10px;
+}
+
+.horizontal-scroll__card--watch a {
+  display: flex;
 }
 
 @media (min-width: 600px) {
