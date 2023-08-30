@@ -327,7 +327,7 @@ header {
   padding: 24px;
 }
 
-.videos__texts p {
+.video__texts p {
   color: var(--mwp-color-font-tertiary);
   font: 0.9em;
   margin-bottom: 24px;
@@ -773,6 +773,14 @@ header {
 
   .work__category--item p {
     font-size: 1.2em;
+  }
+
+  .video__texts{
+    margin-top: 80px;
+  }
+
+  .video__texts p {
+    margin-bottom: 50px;
   }
 
   .video__card--texts h2 {
