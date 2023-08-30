@@ -68,7 +68,8 @@ ul {
 .top-section__texts--social,
 .experience-section__description,
 .presentation-emote,
-.about-section__description--last-name {
+.about-section__description--last-name,
+.cards-desktop {
   display: none;
 }
 
@@ -304,6 +305,10 @@ header {
   color: var(--mwp-color-font-quaternary);
   margin-right: 5px;
   font-size: 0.9em;
+}
+
+.cards-mobile {
+  display: flex;
 }
 
 .video__card {
@@ -655,10 +660,14 @@ header {
     max-width: 1600px;
   }
 
-  .video-cards {
+  .cards-mobile {
+    display: none;
+  }
+
+  .cards-desktop {
     width: 100%;
     display: grid;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
     gap: 10px;
     grid-auto-flow: column;
     justify-items: center;
@@ -667,8 +676,8 @@ header {
   .video__card {
     margin: 0px;
     max-width: unset;
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
   }
 
   .video__card--texts h2 {
@@ -775,9 +784,21 @@ header {
   }
 }
 
+@media (min-width: 1100px) {
+  .cards-desktop {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 1400px) {
   .work-cards {
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
     gap: 50px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .cards-desktop {
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
   }
 }
