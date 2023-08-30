@@ -69,7 +69,8 @@ ul {
 .experience-section__description,
 .presentation-emote,
 .about-section__description--last-name,
-.cards-desktop {
+.cards-desktop,
+.work-cards-desktop {
   display: none;
 }
 
@@ -237,10 +238,6 @@ header {
   overflow: auto;
   padding: 0 20px;
   margin-right: 5px;
-}
-
-.work-cards {
-  display: flex;
 }
 
 .work__card {
@@ -624,7 +621,8 @@ header {
   }
 
   .work-cards {
-    width: 100%;
+    width: calc(100% - 40px);
+    padding: 0 20px;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     gap: 10px;
@@ -780,7 +778,7 @@ header {
     font-size: 1.2em;
   }
 
-  .video__texts{
+  .video__texts {
     margin-top: 80px;
   }
 
