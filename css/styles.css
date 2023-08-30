@@ -275,6 +275,7 @@ header {
 }
 
 .horizontal-scroll__card--notes--note {
+  min-width: 60px;
   padding: 0 20px;
   margin-right: 10px;
   height: 30px;
