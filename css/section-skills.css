@@ -1,0 +1,35 @@
+.skills__content {
+  margin-top: 70px;
+}
+
+.skill-note {
+  margin: 0 20px;
+}
+
+.skills__content p {
+  color: var(--mwp-color-font-tertiary);
+  font-size: 0.9em;
+  margin: 25px 20px;
+}
+
+.skills__content h1 {
+  margin: 15px 20px;
+  width: 155px;
+  font-size: 1.5em;
+}
+
+.skills__content--images {
+  display: flex;
+}
+
+.skills__content--images img {
+  width: 45px;
+  height: 45px;
+  padding-right: 20px;
+}
+
+@media (min-width: 600px) {
+  .skills__content--images img {
+    padding-right: 10px;
+  }
+}
