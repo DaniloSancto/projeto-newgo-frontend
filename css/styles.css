@@ -633,7 +633,7 @@ header {
   .work__card--texts h2 {
     font-size: 1.3em;
   }
-  
+
   .work__card--texts p {
     color: var(--mwp-color-font-tertiary);
     font-size: 1em;
@@ -643,7 +643,7 @@ header {
   .work__link {
     padding: 40px 20px;
   }
-  
+
   .work__link p {
     color: var(--mwp-color-font-quaternary);
     margin-right: 5px;
@@ -651,11 +651,57 @@ header {
   }
 
   .video {
-    display: none;
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  .video-cards {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-flow: column;
+    justify-items: center;
   }
 
   .video__card {
     margin: 0px;
+    max-width: unset;
+    width: 500px;
+    height: 400px;
+  }
+
+  .video__card--texts h2 {
+    font-size: 1.2em;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .video__card--texts p {
+    color: var(--mwp-color-font-tertiary);
+    font-size: 0.9em;
+    max-width: 300px;
+  }
+
+  .video__card--watch {
+    width: 100%;
+  }
+
+  .video__card--notes {
+    min-width: 245px;
+    justify-content: end;
+  }
+
+  .video__card--notes--note {
+    margin: 0;
+    margin-left: 5px;
+    margin-bottom: 15px;
+  }
+
+  .video__card--text-desktop {
+    display: flex;
+    width: 100%;
   }
 }
 
@@ -701,9 +747,6 @@ header {
   }
 
   #portifolio h1 {
-    width: auto;
-    display: flex;
-    align-items: center;
     font-size: 2.5em;
   }
 
@@ -717,12 +760,18 @@ header {
 
   .work__category--item img {
     height: 45px;
-    margin-right: 5px;
   }
 
   .work__category--item p {
-    color: var(--mwp-color-font-quaternary);
     font-size: 1.2em;
+  }
+
+  .video__card--texts h2 {
+    font-size: 1.3em;
+  }
+
+  .video__card--texts p {
+    font-size: 1em;
   }
 }
 
