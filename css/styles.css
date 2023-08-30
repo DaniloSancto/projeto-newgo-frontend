@@ -582,13 +582,14 @@ header {
     width: 100%;
     max-width: 185px;
     height: 60px;
+    margin: 0 3px;
   }
-  
+
   .work__category--item img {
-    height: 30px;
+    height: 25px;
     margin-right: 5px;
   }
-  
+
   .work__category--item p {
     color: var(--mwp-color-font-quaternary);
     font-size: 1.1em;
@@ -626,7 +627,27 @@ header {
     width: auto;
     min-width: 200px;
     max-width: 310px;
-    max-height: 410px;
+    height: 410px;
+  }
+
+  .work__card--texts h2 {
+    font-size: 1.3em;
+  }
+  
+  .work__card--texts p {
+    color: var(--mwp-color-font-tertiary);
+    font-size: 1em;
+    max-width: 300px;
+  }
+
+  .work__link {
+    padding: 40px 20px;
+  }
+  
+  .work__link p {
+    color: var(--mwp-color-font-quaternary);
+    margin-right: 5px;
+    font-size: 1.2em;
   }
 
   .video {
@@ -677,6 +698,31 @@ header {
   .cards {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 20px;
+  }
+
+  #portifolio h1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+  }
+
+  .work__nav {
+    margin-bottom: 80px;
+  }
+
+  .work__category {
+    width: 585px;
+  }
+
+  .work__category--item img {
+    height: 45px;
+    margin-right: 5px;
+  }
+
+  .work__category--item p {
+    color: var(--mwp-color-font-quaternary);
+    font-size: 1.2em;
   }
 }
 
