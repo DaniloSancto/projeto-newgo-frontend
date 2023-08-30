@@ -238,7 +238,7 @@ header {
   margin-right: 5px;
 }
 
-.cards {
+.work-cards {
   display: flex;
 }
 
@@ -613,7 +613,7 @@ header {
     max-width: 1600px;
   }
 
-  .cards {
+  .work-cards {
     width: 100%;
     display: grid;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
@@ -695,7 +695,7 @@ header {
     font-size: 1em;
   }
 
-  .cards {
+  .work-cards {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     gap: 20px;
   }
@@ -727,7 +727,7 @@ header {
 }
 
 @media (min-width: 1400px) {
-  .cards {
+  .work-cards {
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
     gap: 50px;
   }
