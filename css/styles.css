@@ -4,7 +4,6 @@
 @import url("./sticker-note.css");
 @import url("./contact.css");
 @import url("./card-experience.css");
-@import url("./base-card.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
@@ -196,7 +195,9 @@ header {
 }
 
 .portifolio__note {
-  margin-left: 20px;
+  width: calc(100% - 40px);
+  max-width: 1600px;
+  justify-content: center;
 }
 
 .work__category {
@@ -279,8 +280,8 @@ header {
 
 .work__card--notes--note {
   min-width: 60px;
-  padding: 0 20px;
-  margin-right: 10px;
+  padding: 0 5%;
+  margin-right: 5px;
   height: 30px;
 }
 
@@ -537,6 +538,104 @@ header {
   .footer-section p {
     min-width: 206px;
   }
+
+  #portifolio h1 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  #portifolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category-in {
+    display: none;
+  }
+
+  .category-out {
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .work__nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .work__category {
+    width: 585px;
+  }
+
+  .work__category--item {
+    border-radius: 16px;
+    border: 1px solid var(--mwp-border-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 185px;
+    height: 60px;
+  }
+  
+  .work__category--item img {
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .work__category--item p {
+    color: var(--mwp-color-font-quaternary);
+    font-size: 1.1em;
+  }
+
+  .category-design {
+    border: none;
+    background-color: var(--mwp-color-bg-secondary);
+  }
+
+  .horizontal-scroll {
+    overflow: unset;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .work {
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  .cards {
+    width: 100%;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-flow: column;
+    justify-items: center;
+  }
+
+  .work__card {
+    margin: 0px;
+    width: auto;
+    min-width: 200px;
+    max-width: 310px;
+    max-height: 410px;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .video__card {
+    margin: 0px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -573,5 +672,17 @@ header {
 
   .footer-section p {
     font-size: 1em;
+  }
+
+  .cards {
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .cards {
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    gap: 50px;
   }
 }
