@@ -195,6 +195,10 @@ header {
   width: 120px;
 }
 
+.portifolio__note {
+  margin-left: 20px;
+}
+
 .work__category {
   display: flex;
   justify-content: space-between;
@@ -309,7 +313,7 @@ header {
   width: 100%;
   min-width: 250px;
   max-width: 300px;
-  height: 370px;
+  height: 380px;
   margin-right: 15px;
   margin-bottom: 5px;
   border-radius: 16px;
