@@ -5,6 +5,7 @@
 @import url("./contact.css");
 @import url("./card-experience.css");
 @import url("./section-skills.css");
+@import url("./section-career.css");
 
 :root {
   --mwp-color-bg-primary: #090e16;
