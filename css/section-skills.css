@@ -50,15 +50,16 @@
   .skills__note--text {
     display: flex;
     align-items: center;
+    line-height: 32px;
   }
 
   .note-span {
     padding-left: 5px;
     letter-spacing: 0.5px;
+     line-height: 32px;
     color: var(--mwp-color-font-secondary);
     font-weight: 700;
     font-size: 0.9em;
-    height: 45px;
     display: flex;
     align-items: center;
   }
