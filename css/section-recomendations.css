@@ -1,5 +1,9 @@
 #recomendations {
-    margin-top: 70px;
+  margin-top: 70px;
+}
+
+.recomendations__cards--list-desktop {
+  display: none;
 }
 
 .recomendations-note {
@@ -9,8 +13,9 @@
 }
 
 .recomendations__content h1 {
-    padding-left: 20px;
-    margin: 20px 0 30px 0;
+  padding-left: 20px;
+  margin: 20px 0 30px 0;
+  width: 140px;
 }
 
 .recomendations__cards--list-mobile {
@@ -24,6 +29,7 @@
   border: 1px solid var(--mwp-border-color-primary);
   border-radius: 16px;
   margin-right: 15px;
+  margin-bottom: 5px;
   padding: 15px;
   min-width: 270px;
   width: 100%;
@@ -33,6 +39,7 @@
 .recomendations__card img {
   width: 20px;
   height: 20px;
+  border-radius: 50px;
 }
 
 .recomendations__card p {
@@ -64,4 +71,95 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  #recomendations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .recomendations__content {
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .recomendations__content h1 {
+    width: fit-content;
+  }
+
+  .recomendations__cards--list-mobile {
+    display: none;
+  }
+
+  .recomendations__cards--list-desktop {
+    display: grid;
+    justify-items: center;
+    grid-template: repeat(3, 1fr) / repeat(1, 1fr);
+  }
+
+  .recomendations__card {
+    width: 85%;
+    padding: 30px;
+    min-width: 190px;
+    max-width: 420px;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .recomendations__cards--list-mobile {
+    display: none;
+  }
+
+  .recomendations__cards--list-desktop {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+
+  .recomendations__card {
+    width: 85%;
+    padding: 30px;
+    min-width: 190px;
+    max-width: 420px;
+    margin: 5px;
+    margin-bottom: 30px;
+  }
+
+  .recomendations__content h1 {
+    font-size: 2.5em;
+  }
+
+  .recomendations__card img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 5px;
+  }
+
+  .recomendations__card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+
+  .recomendations__card--description img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .recomendations__card--description h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+
+  .recomendations__card--description h4 {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .recomendations__cards--list-desktop {
+    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+  }
 }
