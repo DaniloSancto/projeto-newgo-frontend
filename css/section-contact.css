@@ -1,0 +1,64 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px;
+}
+
+.contact__content {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.contact__content h1 {
+  padding: 20px 0 30px 0;
+  font-size: 1.5em;
+}
+
+.contact__content p {
+  color: var(--mwp-color-font-quaternary);
+  font-weight: 600;
+}
+
+.contact__content--whatsapp {
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+  border: 1px solid var(--mwp-border-color-primary);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.contact__content--whatsapp p {
+  margin-left: 5px;
+}
+
+.contact__content--email h2 {
+  color: var(--mwp-color-font-secondary);
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.contact__content--email-description {
+  display: flex;
+}
+
+.contact__content--email-description h4 {
+  color: var(--mwp-color-font-tertiary);
+  font-weight: 400;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.contact__content--go-top {
+    margin-top: 65px;
+    display: flex;
+}
+
+.contact__content--go-top p {
+    margin-right: 10px;
+}
