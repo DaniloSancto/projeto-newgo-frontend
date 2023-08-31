@@ -328,7 +328,7 @@ header {
 
 .video__texts p {
   color: var(--mwp-color-font-tertiary);
-  font: 0.9em;
+  font-size: 0.9em;
   margin-bottom: 24px;
   padding-left: 20px;
 }
@@ -786,6 +786,7 @@ header {
 
   .video__texts p {
     margin-bottom: 50px;
+    font-size: 1em;
   }
 
   .video__card--texts h2 {
