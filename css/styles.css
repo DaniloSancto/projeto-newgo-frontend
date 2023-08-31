@@ -760,6 +760,10 @@ header {
     gap: 20px;
   }
 
+  #portifolio {
+    margin-top: 150px;
+  }
+
   #portifolio h1 {
     font-size: 2.5em;
   }
