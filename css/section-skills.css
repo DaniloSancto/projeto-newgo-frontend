@@ -22,6 +22,7 @@
 
 .skills__content--images {
   display: flex;
+  margin-bottom: 5px;
 }
 
 .skills__content--images img {
