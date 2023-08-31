@@ -147,6 +147,10 @@
     margin-bottom: 30px;
   }
 
+  .recomendations__content--title {
+    margin-bottom: 30px;
+  }
+
   .recomendations__content h1 {
     font-size: 2.5em;
   }
