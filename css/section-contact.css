@@ -11,6 +11,10 @@
   max-width: 1600px;
 }
 
+.contact__content h5 {
+  display: none;
+}
+
 .contact__content h1 {
   padding: 20px 0 30px 0;
   font-size: 1.5em;
@@ -55,10 +59,121 @@
 }
 
 .contact__content--go-top {
-    margin-top: 65px;
-    display: flex;
+  margin-top: 65px;
+  display: flex;
 }
 
 .contact__content--go-top p {
-    margin-right: 10px;
+  margin-right: 10px;
+}
+
+@media (min-width: 600px) {
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__content h1 {
+    display: none;
+  }
+
+  .contact__content h5 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 65px;
+  }
+
+  .contact-note {
+    padding: 0 10px;
+  }
+  .contact__content--email,
+  .contact__content--email-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__content--links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__content--whatsapp {
+    margin: 0;
+    margin-right: 40px;
+  }
+
+  .contact__content--email img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .contact__content--email h2 {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact {
+    padding-top: 130px;
+    padding-bottom: 200px;
+  }
+
+  .contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__content h5 {
+    font-size: 2.5em;
+  }
+
+  .contact__content br {
+    display: none;
+  }
+
+  .contact-note {
+    padding: 0 10px;
+  }
+  .contact__content--email,
+  .contact__content--email-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__content--links,
+  .contact__content--go-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__content--whatsapp {
+    width: 200px;
+  }
+
+  .contact__content--email img {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0;
+  }
+
+  .contact__content p,
+  .contact__content--email h2,
+  .contact__content--email p {
+    font-size: 1.2em;
+  }
+
+  .contact__content--go-top img {
+    width: 30px;
+    height: 30px;
+  }
 }
